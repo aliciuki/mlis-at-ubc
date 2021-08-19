@@ -1,0 +1,19 @@
+﻿Field,Description
+tweetID,Unique number identifying an individual tweet.
+citCount,Citation count for the article tweeted about (artID).
+artID,Unique number that identifies each article.
+postURL,"URL of tweet, not all of them work (some have been erased or accounts closed)."
+postRT,Retweets include an entry in this field; NULL means this is not a RT.
+postSumm,Text of tweet.
+authName,"Twitter user's name, not unique."
+authDescr,Twitter user's description/bio.
+handle,Twitter user (text after @). It is unique to each Twitter account.
+post_authFoll,Number of post author's followers.
+authCount,Number of users who authored this tweet.
+botornot,"Likelihood that a user is a bot. 1 = very likely, 0 = very unlikely, 2 = uncertain, 9 = no data."
+usrTyp,"1 = Business, 2 = Civil society organization, 3 = Funding organisations, 4 = Individual citizen, 5 = Individual journalists, 6 = Individual professionals, 7 = Individual researcher, 8 = Media, 9 = Other or blank, 10 = Politicians, 11 = Public authorities, 12 = Publishers/journals, 13 = Research organisations,  99 = No data."
+tweetAt,"1 means tweeted at, 0 means not tweeted at."
+hashtag,"1 means contains hashtag, 0 means contains no hashtags."
+likes,Times the tweet was liked.
+replies,Times the tweet was replied to.
+retweets,Times the tweet was retweeted.
